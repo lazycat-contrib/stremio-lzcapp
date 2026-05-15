@@ -18,6 +18,6 @@ services:
     image: registry.lazycat.cloud/czyt/tsaridas/stremio-docker:e720961d44281f09
     environment:
       - NO_CORS=1
-      - SERVER_URL=http://stremio:11470/
+      - AUTO_SERVER_URL=1
     binds:
       - /lzcapp/var/stremio:/root/.stremio-server
