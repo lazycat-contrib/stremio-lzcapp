@@ -11,11 +11,11 @@ application:
     - protocol: tcp
       port: 11470
       service: stremio
-
 services:
   stremio:
     # tsaridas/stremio-docker:v1.2.16
-    image: registry.lazycat.cloud/czyt/tsaridas/stremio-docker:e720961d44281f09
+    # upstream: tsaridas/stremio-docker:v1.3.8
+    image: registry.lazycat.cloud/czyt/tsaridas/stremio-docker:79a54fc1aea77cd8
     environment:
       - NO_CORS=1
       - AUTO_SERVER_URL=1
