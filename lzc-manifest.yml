@@ -14,8 +14,8 @@ application:
 services:
   stremio:
     # tsaridas/stremio-docker:v1.2.16
-    # upstream: tsaridas/stremio-docker:v1.3.9
-    image: registry.lazycat.cloud/czyt/tsaridas/stremio-docker:8cf9dd39f2b394a6
+    # upstream: tsaridas/stremio-docker:v1.3.10
+    image: registry.lazycat.cloud/czyt/tsaridas/stremio-docker:b8a8e49bc7bf93c0
     environment:
       - NO_CORS=1
       - AUTO_SERVER_URL=1
